@@ -19,3 +19,12 @@ var temp = document.getElementById('temp');
 var pressure = document.getElementById('pressure');
 var humidity = document.getElementById('humidity');
 var windspeed = document.getElementById('windspeed');
+
+send.addEventListener('click', function() {
+
+	var cityname = document.getElementById('cityname').value;
+	var url = 'http://api.openweathermap.org/data/2.5/weather?q=' + cityname + '&APPID=' + APPID;
+
+
+ 
+}, false);
