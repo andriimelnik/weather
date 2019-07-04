@@ -12,7 +12,6 @@ var APPID = "6dd5d55e84742b720ad18912a82e4c96";
 
 
 var send = document.getElementById('send');
-
 var selectedcity = document.getElementById('selectedcity');
 var clouddescr = document.getElementById('clouddescr');
 var cloudimg = document.getElementById('cloudimg');
